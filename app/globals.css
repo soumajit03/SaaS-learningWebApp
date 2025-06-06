@@ -141,6 +141,8 @@ body {
 @layer components {
   .home-section {
     @apply flex gap-4 justify-between items-start w-full max-lg:flex-col-reverse max-lg:items-center;
+    padding-inline: calc(var(--spacing) * 45) /* 12.5rem = 200px */;
+    margin-top: calc(var(--spacing) * 8) /* 2rem = 32px */;
   }
   .companions-grid {
     @apply flex flex-wrap gap-4 w-full max-md:justify-center;
